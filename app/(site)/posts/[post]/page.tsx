@@ -16,7 +16,7 @@ const page = async ({ params }: Props) => {
   return (
     <section className='flex justify-center items-start bg-[--primary-color] gap-14 pt-[4rem] small:pt-[6rem] pb-3 px-2 lg:px-[4rem] 2xl:px-[13rem] text-[--text-color]'>
       <div className=' mb-16 xsmall:basis-[95%] small:basis-[70%]'>
-        <h1 className='font-semibold text-xl xsmall:text-2xl small:text-4xl py-12'>
+        <h1 className='font-semibold text-2xl xsmall:text-3xl small:text-4xl py-12'>
           {post.title}
         </h1>
         <Image

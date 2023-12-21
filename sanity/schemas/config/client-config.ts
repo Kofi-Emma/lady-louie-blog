@@ -5,8 +5,8 @@ const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!;
 const config = {
   projectId: projectId,
   dataset: dataset,
-  apiVersion: "2023-12-19",
-  useCdn: true,
+  apiVersion: "2023-12-23",
+  useCdn: false,
 };
 
 export default config;

@@ -8,7 +8,7 @@ const Posts = async () => {
 
   return (
     <section className=' medium:pb-12 text-[--text-color]'>
-      <h1 className='font-bold text-lg small:text-xl medium:text-2xl px-4 pb-2 xsmall:pb-4 small:pb-6 text-center'>
+      <h1 className='font-bold text-2xl small:text-2xl medium:text-3xl px-4 pb-4 xsmall:pb-6 small:pb-8 text-center'>
         Recent Posts
       </h1>
 

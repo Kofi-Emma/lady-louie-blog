@@ -57,9 +57,7 @@ const NavBar = () => {
             <Link href='https://www.instagram.com/brandspecifics'>
               <BsInstagram size={18} color='#7b5222' />
             </Link>
-            <Link href='https://pin.it/1wx43K1'>
-              <BsPinterest size={18} color='#7b5222' />
-            </Link>
+
             <Link href='https://wa.me/message/AWEJSEUXZOX7B1'>
               <BsWhatsapp size={18} color='#7b5222' />
             </Link>
@@ -70,7 +68,7 @@ const NavBar = () => {
           {menuItems.map((item, index) => (
             <li
               key={index}
-              className='hover:border-b-[3px] hover:border-b-orange-600 hover:duration-200'
+              className='hover:border-b-[3px] hover:border-b-[--secondary-color] hover:duration-200'
             >
               {item}
             </li>

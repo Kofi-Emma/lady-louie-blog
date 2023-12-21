@@ -8,7 +8,7 @@ const Hero = async () => {
   const post = await getHeroPost();
 
   return (
-    <section className='flex flex-col justify-between msmall:flex-row msmall:justify-center items-center min-h-[100vh] msmall:min-h-[50vh] small:min-h-[100vh] w-auto mb-6 xsmall:mb-8 small:mb-16 shadow-md bg-[--secondary-color] overflow-hidden '>
+    <section className='flex flex-col justify-between msmall:flex-row msmall:justify-center items-center min-h-[100vh] msmall:min-h-[50vh] small:min-h-[100vh] w-auto mb-8 xsmall:mb-10 small:mb-16 shadow-md bg-[--secondary-color] overflow-hidden '>
       <div className='basis-[50%] pt-[10rem] msmall:pt-0'>
         {post.map((item) => (
           <div

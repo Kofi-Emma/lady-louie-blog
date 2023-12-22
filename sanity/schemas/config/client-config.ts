@@ -5,7 +5,7 @@ const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET!;
 const config = {
   projectId: projectId,
   dataset: dataset,
-  apiVersion: "2023-12-23",
+  apiVersion: "2023-12-18",
   useCdn: false,
 };
 

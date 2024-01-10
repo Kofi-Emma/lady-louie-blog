@@ -54,7 +54,7 @@ const NavBar = () => {
             <Link href='https://www.facebook.com/profile.php?id=100094124780041'>
               <BsFacebook size={18} color='#7b5222' />
             </Link>
-            <Link href='https://www.instagram.com/brandspecifics'>
+            <Link href='https://www.instagram.com/lady_louie'>
               <BsInstagram size={18} color='#7b5222' />
             </Link>
 

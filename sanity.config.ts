@@ -12,7 +12,7 @@ export default defineConfig({
   name: "Lady_Louie_Blog_Content_Studio",
   title: "Lady Louie Blog Content Studio",
 
-  apiVersion: "2023-09-18",
+  apiVersion: "2024-01-10",
 
   projectId: projectId,
   dataset: dataset,

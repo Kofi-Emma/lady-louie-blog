@@ -58,7 +58,7 @@ const Footer = () => {
         <Link href='https://www.facebook.com/profile.php?id=100094124780041'>
           <BsFacebook size={18} />
         </Link>
-        <Link href='https://www.instagram.com/brandspecifics'>
+        <Link href='https://www.instagram.com/lady_louie'>
           <BsInstagram size={18} />
         </Link>
         <Link href='https://pin.it/1wx43K1'>
